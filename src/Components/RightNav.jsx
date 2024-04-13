@@ -10,12 +10,12 @@ const RightNav = () => {
             <div className="p-3">
                 <h2 className="text-3xl">Login With</h2>
                 <div className="space-y-2">
-                    <button className="btn btn-outline w-full hover:bg-slate-200">
+                    <button className="btn btn-outline w-full border  border-slate-200 hover:bg-pink-300  hover:text-black hover:border-slate-200">
                         <FaGoogle className="text-blue-700" />
 
                         Login with google
                     </button>
-                    <button className="btn btn-outline w-full hover:bg-slate-200">
+                    <button className="btn btn-outline w-full border  border-slate-200 hover:bg-pink-300  hover:text-black hover:border-slate-200">
                         <FaGithub className="text-blue-700" />
 
                         Login with GitHub
@@ -40,9 +40,9 @@ const RightNav = () => {
                     </a>
                 </div>
             </div>
-            <div className="p-4 bg-slate-200 rounded-t-xl">
+            <div className="p-4 bg-slate-200 rounded-t-xl ">
                 <h2 className="text-3xl">Q Zone</h2>
-                <div className="space-y-3">
+                <div className="space-y-3 flex flex-col justify-center">
                     <img src={qZone1}></img>
                     <img src={qZone2}></img>
                     <img src={qZone3}></img>
